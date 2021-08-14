@@ -1,0 +1,37 @@
+body{
+    background-color:white;
+}
+nav  li{
+    list-style: none;
+   
+}
+
+.submenu{
+    display: none;
+}
+nav a{
+    text-decoration: none;
+
+}
+nav li:hover .submenu{
+    display: block;
+    
+}
+
+
+nav > li a:hover{
+    border-top: 5px solid black;
+    
+}
+.submenu li{
+    
+    width: 200px;
+    padding: 20px ;
+    height: 25px;
+    background-color: blanchedalmond;
+    text-align: center;
+    color: #ffff;
+}
+.submenu a{
+    color:#ffff;
+}
